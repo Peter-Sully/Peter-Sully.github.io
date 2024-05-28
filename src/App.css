@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+}
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.navbar-custom{
+  background-color:#3725b1
+}
+.hero, .interests {
+  display: flex;
+  background-color: #3725b1;
+  width:1500px;
+  color:white;
+  padding:60px;
+  border-radius:20px;
+  justify-content:space-around;
+  gap:200px;
+}
+
+.hero img{
+  width:400px;
+  border-radius:20px;
+}
+
+.hero h1, .about h1, .edskill h1, .proj h1, .interests h1{
+  font-size:65px;
+}
+
+.about h1 {
+  text-align: right;
+}
+
+.hero p, .about p, .interests p{
+  color:rgba(255, 255, 255, 0.55);
+  font-size:30px;
+}
+
+.body{
+  padding-top:175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about a {
+  font-size:300px;
+  text-decoration:none;
+}
+
+.about {
+  display: flex;
+  background-color: #3725b1;
+  width: 1500px;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  justify-content: space-around;
+  gap: 200px;
+  position: relative;
+  top: 28vh; 
+}
+
+.about-img{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.about-img p {
+  padding-right:70px;
+}
+
+.edskill{
+  color:white;
+  position: relative;
+  top: 50vh; 
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:30px;
+}
+
+.college1{
+  margin-right:600px;
+}
+
+.college2{
+  margin-left:650px;
+}
+
+.langs, .courses{
+  display: flex;
+  flex-direction:column;
+  background-color: #3725b1;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: left;
+  gap:10px;
+  font-size:20px;
+}
+.courses {
+  margin-right:180px;
+}
+
+.langs{align-items:center}
+
+.langs p, .courses p, .project li{
+  color:rgba(255, 255, 255, 0.55);
+  font-size:20px;
+}
+
+.proj {
+  color:white;
+  position: relative; 
+  top: 60vh; 
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:30px;
+  
+}
+
+.project{
+  background-color: #3725b1;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+
+.interests {
+  color:white;
+  position: relative; 
+  top: 70vh; 
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:30px;
+}
+
+
+.footer {
+  background-color: #3725b1;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin-top:700px;
+  position: relative;
+
+  bottom: 0;
+  left: 0;
+}
+
+.footer a {
+  color: #f8f9fa;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

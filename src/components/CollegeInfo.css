@@ -1,0 +1,11 @@
+.college{
+    display: flex;
+    background-color: #3725b1;
+    padding: 50px;
+    border-radius: 20px;
+    align-items: center;
+    gap:10px;
+    font-size:20px;
+
+  }
+  
